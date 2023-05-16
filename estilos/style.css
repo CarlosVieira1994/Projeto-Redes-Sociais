@@ -18,6 +18,10 @@ main {
     height: 100vh;
     position: relative;
 }
+.botao {
+    z-index: 9999;
+}
+
 #telefone {
     height: 627px;
     width: 311px;
@@ -25,7 +29,8 @@ main {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    background: url('../imagens/frame-iphone.png') no-repeat
+    background: url('../imagens/frame-iphone.png') no-repeat;
+    z-index: 5;
 }
 #tela {
     position: relative;
@@ -35,7 +40,9 @@ main {
     height: 471px;
 }
 #redes-sociais {
-    text-align: right;
+    left: 80%;
+    z-index: 9999;
+    position: absolute;
 }
 #redes-sociais img {
     width: 50px;
